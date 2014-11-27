@@ -1,34 +1,9 @@
-//documentation here
-
-//variables that will change
-int ledState1 = LOW; //sets LED as off
-int ledState2 = LOW;
-int ledState3 = LOW;
-int ledState4 = LOW;
-int ledState5 = LOW;
-int ledState6 = LOW;
-int ledState7 = LOW;
-int ledState8 = LOW;
-int ledState9 = LOW;
-int ledState10 = LOW;
-int ledState11 = LOW;
-int ledState12 = LOW;
-int ledState13 = LOW;
-
-//tells wheter or not to be looking to turn an LED off
-boolean turnOff1 = false;
-boolean turnOff2 = false;
-boolean turnOff3 = false;
-boolean turnOff4 = false;
-boolean turnOff5 = false;
-boolean turnOff6 = false;
-boolean turnOff7 = false;
-boolean turnOff8 = false;
-boolean turnOff9 = false;
-boolean turnOff10 = false;
-boolean turnOff11 = false;
-boolean turnOff12 = false;
-boolean turnOff13 = false;
+/* Blink12SequenceFinal
+ * 
+ * Custom sequences for 12 LEDs to be used as "eyes"
+ * to appear "random" without actually being random.
+ * Based on "Blink" by Arduino
+ */
 
 void setup(){
   //set the digital pin as output
@@ -44,13 +19,12 @@ void setup(){
   pinMode(10, OUTPUT);
   pinMode(11, OUTPUT);
   pinMode(12, OUTPUT);
-  pinMode(13, OUTPUT);
 }
 
 void loop(){
   int on = HIGH;
   int off= LOW;
-  digitalWrite(1, on);
+  digitalWrite(1, on);  //sets 12 LEDS to on or off at beginning of loop
   digitalWrite(2, on);
   digitalWrite(3, on);
   digitalWrite(4, off);
