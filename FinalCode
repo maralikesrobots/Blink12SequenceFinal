@@ -2,6 +2,8 @@
  * 
  * Custom sequences for 12 LEDs to be used as "eyes"
  * to appear "random" without actually being random.
+ * Sequences loop after 81.5 seconds
+ * 
  * Based on "Blink" by Arduino
  */
 
