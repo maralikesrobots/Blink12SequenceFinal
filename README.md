@@ -5,8 +5,9 @@ Sequences loop after 81.5 seconds
 
 Based on "Blink" by Arduino
 
-Published Nov 25
-Updated Nov 26, removed unused/unnecessary code, added documentation
+*Published Nov 25
+*Updated Nov 26, removed unused/unnecessary code, added documentation
+*Updated Dec 12, made changes to light patterns
 
 To upload to Arduino UNO  
 1. Copy/Paste code (FinalCode in link above) into empty sketch (ie Create New)  
