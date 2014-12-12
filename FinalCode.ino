@@ -139,20 +139,25 @@ void loop(){
   delay(250);
   digitalWrite(12, off);
   delay(500);        //10 seconds
+  digitalWrite(1, on);
   digitalWrite(4, on);
   digitalWrite(5, off);
   delay(250);
   digitalWrite(5, on);
   delay(250);
+  digitalWrite(1, off);
   digitalWrite(4, off);
   digitalWrite(12, on);
   delay(250);
+  digitalWrite(1, on);
   digitalWrite(11, off);
   delay(250);        //11 seconds
   digitalWrite(11, on);
   delay(250);
+  digitalWrite(1, off);
   digitalWrite(4, off);
   delay(250);
+  digitalWrite(1, on);
   digitalWrite(3, off);
   digitalWrite(4, on);
   digitalWrite(6, off);
@@ -160,8 +165,10 @@ void loop(){
   digitalWrite(3, on);
   digitalWrite(6, on);
   delay(250);        //12 seconds
+  digitalWrite(1, off);
   digitalWrite(7, off);
   delay(250);
+  digitalWrite(1, on);
   digitalWrite(4, off);
   digitalWrite(7, on);
   digitalWrite(9, off);
@@ -171,18 +178,26 @@ void loop(){
   digitalWrite(11, off);
   digitalWrite(12, off);
   delay(250);
+  digitalWrite(1, off);
   digitalWrite(11, on);
-  delay(500);        //13.25 seconds
+  delay(250);        //13 seconds
+  digitalWrite(1, on);
+  delay(250);        //13.25 seconds
   digitalWrite(5, off);
   delay(250);
+  digitalWrite(1, off);
   digitalWrite(4, off);
   digitalWrite(5, on);
   digitalWrite(12, on);
   delay(250);
+  digitalWrite(1, on);
   digitalWrite(4, on);
   delay(500);        //14.25 seconds
+  digitalWrite(1, off);
   digitalWrite(11, off);
-  delay(500);
+  delay(250);
+  digitalWrite(1, on);
+  delay(250);
   digitalWrite(6, off);
   delay(250);        //15 seconds
   digitalWrite(6, on);
@@ -258,9 +273,11 @@ void loop(){
   digitalWrite(4, off);
   digitalWrite(10, on);
   delay(250);        //24 seconds
+  digitalWrite(1, off);
   digitalWrite(4, on);
   digitalWrite(7, off);
   delay(250);
+  digitalWrite(1, on);
   digitalWrite(6, on);
   digitalWrite(7, on);
   digitalWrite(10, off);
@@ -268,19 +285,25 @@ void loop(){
   digitalWrite(9, off);
   digitalWrite(10, on);
   delay(250);
+  digitalWrite(1, off);
   digitalWrite(9, on);
   delay(250);      //25 seconds, 2nd page
+  digitalWrite(1, on);
   digitalWrite(5, off);
   delay(250);
   digitalWrite(5, on);
   delay(250);
+  digitalWrite(1, off);
   digitalWrite(12, off);
   delay(1000);        //26.5 seconds
+  digitalWrite(1, on);
   digitalWrite(10, off);
   digitalWrite(12, on);
   delay(500);        //27 seconds
+  digitalWrite(1, off);
   digitalWrite(4, off);
   delay(250);
+  digitalWrite(1, on);
   digitalWrite(4, on);
   digitalWrite(6, off);
   digitalWrite(7, off);
@@ -288,26 +311,35 @@ void loop(){
   digitalWrite(6, on);
   digitalWrite(7, on);
   delay(1250);      //28.75 seconds
+  digitalWrite(1, off);
   digitalWrite(3, off);
   delay(250);      //29 seconds
+  digitalWrite(1, on);
   digitalWrite(3, on);
   delay(1250);     //30.25 seconds
+  digitalWrite(1, off);
   digitalWrite(4, off);
   digitalWrite(5, off);
   delay(250);
+  digitalWrite(1, on);
   digitalWrite(4, on);
   digitalWrite(5, on);
   digitalWrite(6, off);
   delay(250);
   digitalWrite(6, on);
   digitalWrite(8, on);
-  delay(500);      //31.25 seconds
+  delay(250);      //31 seconds
+  digitalWrite(1, off);
+  delay(250);      //31.25 seconds
+  digitalWrite(1, on);
   digitalWrite(6, off);
   digitalWrite(8, off);
   delay(250);
   digitalWrite(6, on);
   digitalWrite(8, on);
-  delay(500);      //32 seconds
+  delay(250);
+  digitalWrite(1, off);
+  delay(250);      //32 seconds
   digitalWrite(1, on);
   digitalWrite(8, off);
   delay(250);
