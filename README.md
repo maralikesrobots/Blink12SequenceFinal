@@ -7,7 +7,8 @@ Based on "Blink" by Arduino
 
 *Published Nov 25
 *Updated Nov 26, removed unused/unnecessary code, added documentation
-*Updated Dec 12, made changes to light patterns
+*Updated Dec 12, made changes to light patterns 1-7
+*Updated Dec 15, made changes to light patterns 8-12
 
 To upload to Arduino UNO  
 1. Copy/Paste code (FinalCode in link above) into empty sketch (ie Create New)  
