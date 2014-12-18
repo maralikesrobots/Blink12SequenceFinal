@@ -6,7 +6,7 @@
  * 
  * Based on "Blink" by Arduino
  *
- * Published Dec 17 with LED 1 secquence
+ * Published Dec 17 with LED 1 & 2 secquences
  */
  
  void setup(){
@@ -92,7 +92,7 @@ void loop(){
   delay(250);
   delay(250);
   delay(250);
-  delay(250);           /11 seconds
+  delay(250);           //11 seconds
   delay(250);
   delay(250);
   delay(250);
@@ -148,7 +148,7 @@ void loop(){
   delay(250);
   delay(250);
   delay(250);
-  delay(250);           /23 seconds
+  delay(250);           //23 seconds
   delay(250);
   delay(250);
   delay(250);
