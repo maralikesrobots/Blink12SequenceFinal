@@ -6,7 +6,7 @@
  * 
  * Based on "Blink" by Arduino
  *
- * Published Dec 17 with LED sequences 1-5
+ * Published Dec 17 with LED sequences 1-6
  */
  
  void setup(){
@@ -105,14 +105,19 @@ void loop(){
   delay(250);
   digitalWrite(4, on);
   delay(250);           //10 seconds
+  digitalWrite(6, off);
   delay(250);
   digitalWrite(4, off);
+  digitalWrite(6, on);
   delay(250);
   digitalWrite(4, on);
   delay(250);
   digitalWrite(4, off);
+  digitalWrite(6, off);
   delay(250);           //11 seconds
+  digitalWrite(6, on);
   delay(250);
+  digitalWrite(6, off);
   delay(250);
   delay(250);
   delay(250);           //12 seconds
@@ -172,16 +177,22 @@ void loop(){
   delay(250);
   delay(250);           //22 seconds
   delay(250);
+  digitalWrite(6, on);
   delay(250);
   delay(250);
+  digitalWrite(6, off);
   delay(250);           //23 seconds
+  digitalWrite(6, on);
   delay(250);
+  digitalWrite(6, off);
   delay(250);
+  digitalWrite(6, on);
   delay(250);
   digitalWrite(4, on);
   delay(250);           //24 seconds
   digitalWrite(4, off);
   delay(250);
+  digitalWrite(6, off);
   delay(250);
   digitalWrite(4, on);
   delay(250);
@@ -227,12 +238,18 @@ void loop(){
   delay(250);
   delay(250);           //31 seconds
   delay(250);
+  digitalWrite(6, on);
   delay(250);
+  digitalWrite(6, off);
   delay(250);
+  digitalWrite(6, on);
   delay(250);           //32 seconds
   delay(250);
+  digitalWrite(6, off);
   delay(250);
+  digitalWrite(6, on);
   delay(250);
+  digitalWrite(6, off);
   delay(250);           //33 seconds
   delay(250);
   delay(250);
@@ -350,14 +367,18 @@ void loop(){
   delay(250);
   digitalWrite(4, on);
   delay(250);           //54 seconds
+  digitalWrite(6, on);
   delay(250);
   delay(250);
   delay(250);
   digitalWrite(4, off);
+  digitalWrite(6, off);
   delay(250);           //55 seconds
   digitalWrite(1, on);
   delay(250);
+  digitalWrite(6, on);
   delay(250);
+  digitalWrite(6, off);
   delay(250);
   delay(250);           //56 seconds
   digitalWrite(1, off);
@@ -429,30 +450,41 @@ void loop(){
   delay(250);
   delay(250);
   delay(250);           //65 seconds
+  digitalWrite(6, on);
   delay(250);
   delay(250);
   delay(250);
+  digitalWrite(6, off);
   delay(250);           //66 seconds
+  digitalWrite(6, on);
   delay(250);
+  digitalWrite(6, off);
   delay(250);
+  digitalWrite(6, on);
   delay(250);
   delay(250);           //67 seconds
   delay(250);
   delay(250);
+  digitalWrite(6, off);
   delay(250);
   delay(250);           //68 seconds
   delay(250);
+  digitalWrite(6, on);
   delay(250);
   delay(250);
   delay(250);           //69 seconds
   delay(250);
   delay(250);
   delay(250);
+  digitalWrite(6, off);
   delay(250);           //70 seconds
+  digitalWrite(6, on);
   delay(250);
   digitalWrite(2, on);
+  digitalWrite(6, off);
   delay(250);
   digitalWrite(2, off);
+  digitalWrite(6, on);
   delay(250);
   digitalWrite(2, on);
   delay(250);           //71 seconds
