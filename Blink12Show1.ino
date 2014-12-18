@@ -285,7 +285,7 @@ void loop(){
   delay(250);           //39 seconds
   delay(250);
   delay(250);
-  digitalWrit(3, off);
+  digitalWrite(3, off);
   delay(250);
   digitalWrite(3, on);
   delay(250);           //40 seconds
