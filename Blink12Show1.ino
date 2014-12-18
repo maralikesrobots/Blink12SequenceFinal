@@ -5,6 +5,8 @@
  * Sequences loop after 72.5 seconds
  * 
  * Based on "Blink" by Arduino
+ *
+ * Published Dec 17 with LED 1 secquence
  */
  
  void setup(){
@@ -154,10 +156,14 @@ void loop(){
   delay(250);
   delay(250);
   delay(250);           //27 seconds
+  digitalWrite(1, on);
   delay(250);
+  digitalWrite(1, off);
   delay(250);
+  digitalWrite(1, on);
   delay(250);
   delay(250);           //28 seconds
+  digitalWrite(1, off);
   delay(250);
   delay(250);
   delay(250);
@@ -181,15 +187,22 @@ void loop(){
   delay(250);
   delay(250);
   delay(250);
+  digitalWrite(1, on);
   delay(250);           //34 seconds
   delay(250);
+  digitalWrite(1, off);
   delay(250);
+  digitalWrite(1, on);
   delay(250);
+  digitalWrite(1, off);
   delay(250);           //35 seconds
   delay(250);
+  digitalWrite(1, on);
   delay(250);
   delay(250);
+  digitalWrite(1, on);
   delay(250);           //36 seconds
+  digitalWrite(1, off);        //(1 off 19 s)
   delay(250);
   delay(250);
   delay(250);
@@ -266,15 +279,21 @@ void loop(){
   delay(250);
   delay(250);
   delay(250);           //55 seconds
+  digitalWrite(1, on);
   delay(250);
   delay(250);
   delay(250);
   delay(250);           //56 seconds
+  digitalWrite(1, off);
   delay(250);
+  digitalWrite(1, on);
   delay(250);
+  digitalWrite(1, off);
   delay(250);
+  digitalWrite(1, on);
   delay(250);           //57 seconds
   delay(250);
+  digitalWrite(1, off); //(1 off 13.5 s)
   delay(250);
   delay(250);
   delay(250);           //58 seconds
@@ -330,10 +349,14 @@ void loop(){
   delay(250);
   delay(250);
   delay(250);           //71 seconds
+  digitalWrite(1, on);
   delay(250);
+  digitalWrite(1, off);
   delay(250);
+  digitalWrite(1, on);
   delay(250);
   delay(250);           //72 seconds
+  digitalWrite(1, off);
   delay(250);
   delay(250);          //72.5 seconds
 }
